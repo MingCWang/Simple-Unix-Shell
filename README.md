@@ -3,9 +3,9 @@ This project studies how the shell works, how pipes, foreground and background p
 
 ## Implemented Commands
 The user has the option to make a process run in the "background" by adding the ampersand (&) as the last character on the line.
-```bash
-$ pwd (Print current working directory)
-$ cd (Change directory)
+
+pwd _(Print current working directory)_
+cd _(Change directory)_
 $ cat (Read file content and redirect to STDOUT or pipe)
 $ head/tail (Returns up to the first/last 10 lines from piped input)
 $ grep (Returns all lines from piped input that contain the taraget string)
@@ -17,7 +17,7 @@ $ | (This allows piping commands togather)
 $ \> (redirects the output to a text file)
 $ repl_jobs (Checks which of the background processes are still alive and prints a list of the alive processes)
 $ kill (Kill a specified command by providing the number that “repl_jobs” assigned to it)
-```
+
 
 ## Example Output
 <img width="805" alt="Screen Shot 2023-04-15 at 2 10 01 PM" src="https://user-images.githubusercontent.com/73949957/232246228-b4178fed-af82-4f0f-836b-055b9afc805f.png">
