@@ -14,7 +14,7 @@ The user has the option to make a process run in the "background" by adding the 
 ```uniq``` Removes any line from the piped input that is the same as the previous line <br />
 ```cc <r>``` Applies a Caesar cipher to the piped input with the provided rotation <r> <br />
 ```|``` This allows piping commands togather <br />
-```\>``` redirects the output to a text file <br />
+```>``` redirects the output to a text file <br />
 ```repl_jobs``` Checks which of the background processes are still alive and prints a list of the alive processes <br />
 ```kill``` Kill a specified command by providing the number that “repl_jobs” assigned to it <br />
 
