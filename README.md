@@ -1,5 +1,5 @@
 # Simple-Unix-Shell
-This project studies how the shell works, how pipes, foreground and background processing all go together by creating a simplified unix shell. I developed a deeper understanding of concurrency, through the process of debugging race conditions and creating critical sections. 
+This project studies how the shell works, how pipes, foreground and background processing all go together by creating a simplified unix shell. I developed a deeper understanding of concurrency through the process of debugging race conditions and creating critical sections. 
 
 ## Implemented Commands
 ```bash
