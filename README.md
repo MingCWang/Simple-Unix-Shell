@@ -16,5 +16,5 @@ $ | - This allows piping commands togather
 $ \> - redirects the output to a text file
 ```
 
-## Example output
+## Example Output
 <img width="805" alt="Screen Shot 2023-04-15 at 2 10 01 PM" src="https://user-images.githubusercontent.com/73949957/232246228-b4178fed-af82-4f0f-836b-055b9afc805f.png">
