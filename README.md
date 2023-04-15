@@ -4,19 +4,19 @@ This project studies how the shell works, how pipes, foreground and background p
 ## Implemented Commands
 The user has the option to make a process run in the "background" by adding the ampersand (&) as the last character on the line.
 
-```pwd```       Print current working directory <br />
-```cd```        Change directory <br />
-```cat```       Read file content and redirect to STDOUT or pipe <br />
-```head/tail``` Returns up to the first/last 10 lines from piped input <br />
-```grep```      Returns all lines from piped input that contain the taraget string <br />
-```wc```        Counts the number of lines, words, and characters in the piped input <br />
-```ls```        Lists the files in the current working directory <br />
-```uniq```      Removes any line from the piped input that is the same as the previous line <br />
-```cc <r>```    Applies a Caesar cipher to the piped input with the provided rotation <r> <br />
-```|```         This allows piping commands togather <br />
-```>```         Redirects the output to a text file <br />
-```repl_jobs``` Checks which of the background processes are still alive and prints a list of the alive processes <br />
-```kill```      Kill a specified command by providing the number that “repl_jobs” assigned to it <br />
+-```pwd```       Print current working directory <br />
+-```cd```        Change directory <br />
+-```cat```       Read file content and redirect to STDOUT or pipe <br />
+-```head/tail``` Returns up to the first/last 10 lines from piped input <br />
+-```grep```      Returns all lines from piped input that contain the taraget string <br />
+-```wc```        Counts the number of lines, words, and characters in the piped input <br />
+-```ls```        Lists the files in the current working directory <br />
+-```uniq```      Removes any line from the piped input that is the same as the previous line <br />
+-```cc <r>```    Applies a Caesar cipher to the piped input with the provided rotation <r> <br />
+-```|```         This allows piping commands togather <br />
+-```>```         Redirects the output to a text file <br />
+-```repl_jobs``` Checks which of the background processes are still alive and prints a list of the alive processes <br />
+-```kill```      Kill a specified command by providing the number that “repl_jobs” assigned to it <br />
 
 
 ## Example Output
