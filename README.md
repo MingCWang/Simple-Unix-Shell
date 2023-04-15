@@ -4,7 +4,7 @@ This project studies how the shell works, how pipes, foreground and background p
 ## Implemented Commands
 The user has the option to make a process run in the "background" by adding the ampersand (&) as the last character on the line.
 
-```pwd```\t\t\t\tPrint current working directory <br />
+```pwd```       Print current working directory <br />
 ```cd```        Change directory <br />
 ```cat```       Read file content and redirect to STDOUT or pipe <br />
 ```head/tail``` Returns up to the first/last 10 lines from piped input <br />
