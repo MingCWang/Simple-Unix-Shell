@@ -4,9 +4,9 @@ This project studies how the shell works, how pipes, foreground and background p
 ## Implemented Commands
 The user has the option to make a process run in the "background" by adding the ampersand (&) as the last character on the line.
 ```bash
-$ pwd - Print current working directory 
-$ cd - Change directory 
-$ cat - Read file content and redirect to STDOUT or pipe
+$ pwd - _Print current working directory _
+$ cd - _Change directory_ 
+$ cat - _Read file content and redirect to STDOUT or pipe_
 $ head/tail - Returns up to the first/last 10 lines from piped input.
 $ grep - Returns all lines from piped input that contain the taraget string
 $ wc - Counts the number of lines, words, and characters in the piped input.
